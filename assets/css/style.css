@@ -1,0 +1,43 @@
+.project-img {
+  height: 300px;
+  width: 700px;
+}
+
+.logos {
+  height: 46px;
+  width: 46px;
+}
+
+.post-imgs {
+  height: 300px;
+  width: 500px;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-imgs {
+  height: 30px;
+  width: 70px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 320px) {
+  .post-imgs,
+  .project-img {
+    max-width: calc(100% - 2em);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .post-imgs,
+  .project-img {
+    height: 150px;
+  }
+}
