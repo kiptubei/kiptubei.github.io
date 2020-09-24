@@ -42,6 +42,8 @@ body {
   /* background: white; */
   background-attachment: fixed;
   letter-spacing: -1px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 h1,
@@ -66,4 +68,8 @@ h6 {
 
 .item p {
   margin: 0 0 5px 0;
+}
+
+.nav-bar {
+  background-color: rgba(0, 0, 0, 0.5);
 }
