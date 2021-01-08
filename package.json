@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.26.12",
-    "run-script-os": "^1.1.1"
+    "browser-sync": "^2.26.13",
+    "run-script-os": "^1.1.4"
   }
 }
